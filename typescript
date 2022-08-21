@@ -1,0 +1,716 @@
+Script started on 2022-08-21 14:22:41+00:00
+]0;root@server:~[root@server ~]# yum install -y yum-utils
+AlmaLinux 8 - BaseOS                [===                            ] ---  B/s |   0  B     --:-- ETAAlmaLinux 8 - BaseOS                [===                            ] ---  B/s |   0  B     --:-- ETAAlmaLinux 8 - BaseOS                [   ===                         ] ---  B/s |   0  B     --:-- ETAAlmaLinux 8 - BaseOS                [      ===                      ] ---  B/s |   0  B     --:-- ETAAlmaLinux 8 - BaseOS                [         ===                   ] ---  B/s |   0  B     --:-- ETAAlmaLinux 8 - BaseOS             0% [                               ] 112 kB/s |  34 kB     00:51 ETAAlmaLinux 8 - BaseOS             7% [==                             ] 187 kB/s | 445 kB     00:28 ETAAlmaLinux 8 - BaseOS            14% [====-                          ] 263 kB/s | 880 kB     00:19 ETAAlmaLinux 8 - BaseOS            23% [=======                        ] 351 kB/s | 1.4 MB     00:13 ETAAlmaLinux 8 - BaseOS            31% [=========-                     ] 430 kB/s | 1.9 MB     00:09 ETAAlmaLinux 8 - BaseOS            40% [============-                  ] 507 kB/s | 2.4 MB     00:07 ETAAlmaLinux 8 - BaseOS            49% [===============                ] 590 kB/s | 2.9 MB     00:05 ETAAlmaLinux 8 - BaseOS            57% [=================-             ] 641 kB/s | 3.3 MB     00:03 ETAAlmaLinux 8 - BaseOS            63% [===================-           ] 677 kB/s | 3.7 MB     00:03 ETAAlmaLinux 8 - BaseOS            71% [======================         ] 737 kB/s | 4.2 MB     00:02 ETAAlmaLinux 8 - BaseOS            81% [=========================      ] 806 kB/s | 4.8 MB     00:01 ETAAlmaLinux 8 - BaseOS            90% [===========================-   ] 862 kB/s | 5.3 MB     00:00 ETAAlmaLinux 8 - BaseOS            98% [============================== ] 904 kB/s | 5.7 MB     00:00 ETAAlmaLinux 8 - BaseOS                                                  1.1 MB/s | 5.8 MB     00:05    
+AlmaLinux 8 - AppStream             [            ===                ] ---  B/s |   0  B     --:-- ETAAlmaLinux 8 - AppStream             [               ===             ] ---  B/s |   0  B     --:-- ETAAlmaLinux 8 - AppStream          0% [                               ] 230 kB/s |  69 kB     00:41 ETAAlmaLinux 8 - AppStream          5% [=-                             ] 308 kB/s | 532 kB     00:29 ETAAlmaLinux 8 - AppStream         10% [===                            ] 375 kB/s | 962 kB     00:23 ETAAlmaLinux 8 - AppStream         15% [====-                          ] 463 kB/s | 1.5 MB     00:17 ETAAlmaLinux 8 - AppStream         20% [======                         ] 533 kB/s | 2.0 MB     00:14 ETAAlmaLinux 8 - AppStream         24% [=======                        ] 603 kB/s | 2.5 MB     00:13 ETAAlmaLinux 8 - AppStream         29% [=========                      ] 685 kB/s | 3.0 MB     00:10 ETAAlmaLinux 8 - AppStream         34% [==========-                    ] 750 kB/s | 3.6 MB     00:09 ETAAlmaLinux 8 - AppStream         39% [============                   ] 799 kB/s | 4.0 MB     00:07 ETAAlmaLinux 8 - AppStream         44% [=============-                 ] 855 kB/s | 4.5 MB     00:06 ETAAlmaLinux 8 - AppStream         48% [===============                ] 898 kB/s | 5.0 MB     00:05 ETAAlmaLinux 8 - AppStream         53% [================-              ] 942 kB/s | 5.5 MB     00:05 ETAAlmaLinux 8 - AppStream         58% [==================             ] 991 kB/s | 6.0 MB     00:04 ETAAlmaLinux 8 - AppStream         64% [===================-           ] 1.0 MB/s | 6.6 MB     00:03 ETAAlmaLinux 8 - AppStream         69% [=====================          ] 1.1 MB/s | 7.1 MB     00:02 ETAAlmaLinux 8 - AppStream         74% [=======================        ] 1.1 MB/s | 7.7 MB     00:02 ETAAlmaLinux 8 - AppStream         79% [========================-      ] 1.2 MB/s | 8.2 MB     00:01 ETAAlmaLinux 8 - AppStream         84% [==========================     ] 1.2 MB/s | 8.7 MB     00:01 ETAAlmaLinux 8 - AppStream         90% [===========================-   ] 1.2 MB/s | 9.2 MB     00:00 ETAAlmaLinux 8 - AppStream         95% [=============================  ] 1.2 MB/s | 9.8 MB     00:00 ETAAlmaLinux 8 - AppStream         99% [==============================-] 1.3 MB/s |  10 MB     00:00 ETAAlmaLinux 8 - AppStream                                               1.5 MB/s |  10 MB     00:06    
+AlmaLinux 8 - Extras                [                  ===          ] ---  B/s |   0  B     --:-- ETAAlmaLinux 8 - Extras                [                     ===       ] ---  B/s |   0  B     --:-- ETAAlmaLinux 8 - Extras           100% [===============================]  16 kB/s | 6.5 kB     00:00 ETAAlmaLinux 8 - Extras           100% [===============================]  15 kB/s |  15 kB     00:00 ETAAlmaLinux 8 - Extras           100% [===============================]  15 kB/s |  15 kB     00:00 ETAAlmaLinux 8 - Extras           100% [===============================]  15 kB/s |  15 kB     00:00 ETAAlmaLinux 8 - Extras           100% [===============================]  15 kB/s |  15 kB     00:00 ETAAlmaLinux 8 - Extras           100% [===============================]  15 kB/s |  15 kB     00:00 ETAAlmaLinux 8 - Extras           100% [===============================]  15 kB/s |  15 kB     00:00 ETAAlmaLinux 8 - Extras           100% [===============================]  15 kB/s |  15 kB     00:00 ETAAlmaLinux 8 - Extras             0% [                               ]  15 kB/s |   0  B     00:01 ETAAlmaLinux 8 - Extras                                                  2.5 kB/s |  18 kB     00:07    
+Last metadata expiration check: 0:00:01 ago on Sun 21 Aug 2022 02:23:03 PM UTC.
+Dependencies resolved.
+======================================================================================================
+ Package                 Architecture         Version                      Repository            Size
+======================================================================================================
+Installing:
+ [1m[32myum-utils              (B[m noarch               4.0.21-11.el8                baseos                72 k
+
+Transaction Summary
+======================================================================================================
+Install  1 Package
+
+Total download size: 72 k
+Installed size: 23 k
+Downloading Packages:
+AlmaLinux 8 - BaseOS             0% [                               ]  15 kB/s |   0  B     00:01 ETAAlmaLinux 8 - BaseOS             0% [                               ]  15 kB/s |   0  B     00:01 ETAyum-utils-4.0.21-11.el8.noarch.  0% [                               ] ---  B/s |   0  B     --:-- ETAyum-utils-4.0.21-11.el8.noarch.rpm                                    396 kB/s |  72 kB     00:00    
+------------------------------------------------------------------------------------------------------
+Total                                                                  94 kB/s |  72 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                              1/1 
+  Installing       : yum-utils-4.0.21-11.el8.noarch [                                           ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [=                                          ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [==                                         ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [===                                        ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [=========                                  ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [===========                                ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [=============                              ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [===============                            ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [================                           ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [==================                         ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [====================                       ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [=====================                      ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [========================                   ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [===========================                ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [=============================              ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [===============================            ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [=================================          ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [===================================        ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [======================================     ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [========================================   ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch [========================================== ] 1/1  Installing       : yum-utils-4.0.21-11.el8.noarch                                               1/1 
+  Running scriptlet: yum-utils-4.0.21-11.el8.noarch                                               1/1 
+  Verifying        : yum-utils-4.0.21-11.el8.noarch                                               1/1 
+
+Installed:
+  yum-utils-4.0.21-11.el8.noarch                                                                      
+
+Complete!
+]0;root@server:~[root@server ~]# rpm --eval "%{dist}"
+.el8
+]0;root@server:~[root@server ~]# dnf install -y \
+>  https://zfsonlinux.org/epel/zfs-release-2-2$( rpm --eval "%{dist}" ).noarch.rpm
+Last metadata expiration check: 0:00:33 ago on Sun 21 Aug 2022 02:23:03 PM UTC.
+zfs-release-2-2.el8.noarch.rpm      [===                            ] ---  B/s |   0  B     --:-- ETAzfs-release-2-2.el8.noarch.rpm      [===                            ] ---  B/s |   0  B     --:-- ETAzfs-release-2-2.el8.noarch.rpm      [   ===                         ] ---  B/s |   0  B     --:-- ETAzfs-release-2-2.el8.noarch.rpm      [      ===                      ] ---  B/s |   0  B     --:-- ETAzfs-release-2-2.el8.noarch.rpm                                        7.5 kB/s |  10 kB     00:01    
+Dependencies resolved.
+======================================================================================================
+ Package                  Architecture        Version                 Repository                 Size
+======================================================================================================
+Installing:
+ [32mzfs-release             (B[m noarch              2-2.el8                 @commandline               10 k
+
+Transaction Summary
+======================================================================================================
+Install  1 Package
+
+Total size: 10 k
+Installed size: 3.0 k
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                              1/1 
+  Installing       : zfs-release-2-2.el8.noarch [                                               ] 1/1  Installing       : zfs-release-2-2.el8.noarch [=========================                      ] 1/1  Installing       : zfs-release-2-2.el8.noarch [=============================================  ] 1/1  Installing       : zfs-release-2-2.el8.noarch                                                   1/1 
+  Running scriptlet: zfs-release-2-2.el8.noarch                                                   1/1 
+  Verifying        : zfs-release-2-2.el8.noarch                                                   1/1 
+
+Installed:
+  zfs-release-2-2.el8.noarch                                                                          
+
+Complete!
+]0;root@server:~[root@server ~]# yum-config-manager --enable zfs-kmod
+]0;root@server:~[root@server ~]# yum-config-manager --disable zfs
+]0;root@server:~[root@server ~]# yum repolist --enabled | grep zfs && echo ZFS repo enabled
+[01;31m[Kzfs[m[K-kmod                       ZFS on Linux for EL8 - kmod
+ZFS repo enabled
+]0;root@server:~[root@server ~]# yum install -y zfs
+ZFS on Linux for EL8 - kmod         [===                            ] ---  B/s |   0  B     --:-- ETAZFS on Linux for EL8 - kmod         [===                            ] ---  B/s |   0  B     --:-- ETAZFS on Linux for EL8 - kmod         [   ===                         ] ---  B/s |   0  B     --:-- ETAZFS on Linux for EL8 - kmod         [      ===                      ] ---  B/s |   0  B     --:-- ETAZFS on Linux for EL8 - kmod      0% [                               ] ---  B/s |   0  B     --:-- ETAZFS on Linux for EL8 - kmod      0% [                               ] ---  B/s |   0  B     --:-- ETAZFS on Linux for EL8 - kmod     53% [================               ] 206 kB/s |  83 kB     00:00 ETAZFS on Linux for EL8 - kmod                                            59 kB/s | 155 kB     00:02    
+Dependencies resolved.
+======================================================================================================
+ Package                 Arch        Version                                     Repository      Size
+======================================================================================================
+Installing:
+ [1m[32mzfs                    (B[m x86_64      2.1.5-2.el8                                 zfs-kmod       659 k
+Installing dependencies:
+ [1m[32mkmod-zfs               (B[m x86_64      2.1.5-2.el8                                 zfs-kmod       1.5 M
+ [1m[32mlibnvpair3             (B[m x86_64      2.1.5-2.el8                                 zfs-kmod        37 k
+ [1m[32mlibuutil3              (B[m x86_64      2.1.5-2.el8                                 zfs-kmod        33 k
+ [1m[32mlibzfs5                (B[m x86_64      2.1.5-2.el8                                 zfs-kmod       230 k
+ [1m[32mlibzpool5              (B[m x86_64      2.1.5-2.el8                                 zfs-kmod       1.3 M
+ [1m[32mlm_sensors-libs        (B[m x86_64      3.4.0-23.20180522git70f7e08.el8             baseos          58 k
+ [1m[32mpython3-pip            (B[m noarch      9.0.3-22.el8                                appstream       19 k
+ [1m[32mpython3-setuptools     (B[m noarch      39.2.0-6.el8                                baseos         162 k
+ [1m[32mpython36               (B[m x86_64      3.6.8-38.module_el8.5.0+2569+5c5719bc       appstream       18 k
+ [1m[32msysstat                (B[m x86_64      11.7.3-7.el8                                appstream      424 k
+Enabling module streams:
+ python36                            3.6                                                             
+
+Transaction Summary
+======================================================================================================
+Install  11 Packages
+
+Total download size: 4.4 M
+Installed size: 16 M
+Downloading Packages:
+                                 0% [                               ] 206 kB/s |   0  B     00:00 ETA                                 0% [                               ] 206 kB/s |   0  B     00:00 ETA                                 0% [                               ] 206 kB/s |   0  B     00:00 ETA                                 0% [                               ] 188 kB/s | 641  B     00:00 ETA(1/11): lm_sensors-libs-3.4.0-2  0% [                               ] ---  B/s |   0  B     --:-- ETA(1/11): python3-pip-9.0.3-22.el8.noarch.rpm                           124 kB/s |  19 kB     00:00    
+(2-3/11): lm_sensors-libs-3.4.0  2% [-                              ] 705 kB/s | 108 kB     00:06 ETA(2/11): lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64.rpm    317 kB/s |  58 kB     00:00    
+(3-4/11): python3-setuptools-39  3% [=                              ] 714 kB/s | 174 kB     00:06 ETA(3/11): python3-setuptools-39.2.0-6.el8.noarch.rpm                    690 kB/s | 162 kB     00:00    
+(4-5/11): python36-3.6.8-38.mod  5% [=-                             ] 720 kB/s | 240 kB     00:05 ETA(4/11): python36-3.6.8-38.module_el8.5.0+2569+5c5719bc.x86_64.rpm     207 kB/s |  18 kB     00:00    
+(5-6/11): sysstat-11.7.3-7.el8.  5% [=-                             ] 722 kB/s | 257 kB     00:05 ETA(5/11): sysstat-11.7.3-7.el8.x86_64.rpm                               1.2 MB/s | 424 kB     00:00    
+(6-7/11): kmod-zfs-2.1.5-2.el8. 15% [====-                          ] 766 kB/s | 682 kB     00:04 ETA(6-8/11): kmod-zfs-2.1.5-2.el8. 15% [====-                          ] 716 kB/s | 710 kB     00:05 ETA(6/11): libnvpair3-2.1.5-2.el8.x86_64.rpm                              55 kB/s |  37 kB     00:00    
+(7-8/11): libuutil3-2.1.5-2.el8 16% [=====                          ] 717 kB/s | 733 kB     00:05 ETA(7/11): libuutil3-2.1.5-2.el8.x86_64.rpm                               50 kB/s |  33 kB     00:00    
+(8-9/11): libzfs5-2.1.5-2.el8.x 19% [=====-                         ] 703 kB/s | 853 kB     00:05 ETA(8-10/11): kmod-zfs-2.1.5-2.el8 24% [=======-                       ] 710 kB/s | 1.1 MB     00:04 ETA(8-10/11): libzfs5-2.1.5-2.el8. 34% [==========-                    ] 757 kB/s | 1.5 MB     00:03 ETA(8-10/11): libzfs5-2.1.5-2.el8. 46% [==============                 ] 813 kB/s | 2.0 MB     00:02 ETA(8/11): libzfs5-2.1.5-2.el8.x86_64.rpm                                192 kB/s | 230 kB     00:01    
+(9-10/11): kmod-zfs-2.1.5-2.el8 46% [==============                 ] 814 kB/s | 2.0 MB     00:02 ETA(9-11/11): libzpool5-2.1.5-2.el 58% [==================             ] 868 kB/s | 2.5 MB     00:02 ETA(9/11): kmod-zfs-2.1.5-2.el8.x86_64.rpm                               629 kB/s | 1.5 MB     00:02    
+(10-11/11): zfs-2.1.5-2.el8.x86 68% [=====================          ] 919 kB/s | 3.0 MB     00:01 ETA(10-11/11): zfs-2.1.5-2.el8.x86 73% [======================-        ] 906 kB/s | 3.2 MB     00:01 ETA(10-11/11): zfs-2.1.5-2.el8.x86 79% [========================-      ] 902 kB/s | 3.5 MB     00:01 ETA(10-11/11): zfs-2.1.5-2.el8.x86 85% [==========================     ] 897 kB/s | 3.7 MB     00:00 ETA(10-11/11): libzpool5-2.1.5-2.e 91% [============================   ] 897 kB/s | 4.0 MB     00:00 ETA(10/11): zfs-2.1.5-2.el8.x86_64.rpm                                   311 kB/s | 659 kB     00:02    
+(11/11): libzpool5-2.1.5-2.el8. 98% [==============================-] 902 kB/s | 4.3 MB     00:00 ETA(11/11): libzpool5-2.1.5-2.el8.x86_64.rpm                             421 kB/s | 1.3 MB     00:03    
+------------------------------------------------------------------------------------------------------
+Total                                                                 818 kB/s | 4.4 MB     00:05     
+ZFS on Linux for EL8 - kmod         [         ===                   ] ---  B/s |   0  B     --:-- ETAZFS on Linux for EL8 - kmod                                           1.6 MB/s | 1.7 kB     00:00    
+Importing GPG key 0xF14AB620:
+ Userid     : "ZFS on Linux <zfs@zfsonlinux.org>"
+ Fingerprint: C93A FFFD 9F3F 7B03 C310 CEB6 A9D5 A1C0 F14A B620
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-openzfs
+Key imported successfully
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [======                                                                   ] 1/1  Preparing        :  [=============                                                            ] 1/1  Preparing        :  [===================                                                      ] 1/1  Preparing        :  [==========================                                               ] 1/1  Preparing        :  [================================                                         ] 1/1  Preparing        :  [=======================================                                  ] 1/1  Preparing        :  [=============================================                            ] 1/1  Preparing        :  [====================================================                     ] 1/1  Preparing        :  [===========================================================              ] 1/1  Preparing        :  [=================================================================        ] 1/1  Preparing        :                                                                              1/1 
+  Installing       : libnvpair3-2.1.5-2.el8.x86_64 [                                          ]  1/11  Installing       : libnvpair3-2.1.5-2.el8.x86_64 [==============                            ]  1/11  Installing       : libnvpair3-2.1.5-2.el8.x86_64 [============================              ]  1/11  Installing       : libnvpair3-2.1.5-2.el8.x86_64 [========================================= ]  1/11  Installing       : libnvpair3-2.1.5-2.el8.x86_64                                               1/11 
+  Installing       : libuutil3-2.1.5-2.el8.x86_64 [                                           ]  2/11  Installing       : libuutil3-2.1.5-2.el8.x86_64 [====================                       ]  2/11  Installing       : libuutil3-2.1.5-2.el8.x86_64 [========================================   ]  2/11  Installing       : libuutil3-2.1.5-2.el8.x86_64 [========================================== ]  2/11  Installing       : libuutil3-2.1.5-2.el8.x86_64                                                2/11 
+  Installing       : libzfs5-2.1.5-2.el8.x86_64 [                                             ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [==                                           ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [====                                         ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [=======                                      ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [=========                                    ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [============                                 ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [==============                               ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [=================                            ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [===================                          ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [======================                       ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [========================                     ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [===========================                  ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [=============================                ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [================================             ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [=================================            ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [====================================         ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [======================================       ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [========================================     ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [===========================================  ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64 [============================================ ]  3/11  Installing       : libzfs5-2.1.5-2.el8.x86_64                                                  3/11 
+  Installing       : libzpool5-2.1.5-2.el8.x86_64 [                                           ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=                                          ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [==                                         ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [===                                        ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [====                                       ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=====                                      ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [======                                     ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=======                                    ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [========                                   ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=========                                  ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [==========                                 ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [===========                                ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [============                               ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=============                              ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [==============                             ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [===============                            ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [================                           ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=================                          ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [==================                         ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [===================                        ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [====================                       ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=====================                      ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [======================                     ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=======================                    ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [========================                   ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=========================                  ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [==========================                 ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [===========================                ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [============================               ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=============================              ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [==============================             ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [===============================            ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [================================           ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=================================          ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [==================================         ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [===================================        ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [====================================       ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=====================================      ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [======================================     ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=======================================    ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [========================================   ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [=========================================  ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64 [========================================== ]  4/11  Installing       : libzpool5-2.1.5-2.el8.x86_64                                                4/11 
+  Installing       : python3-setuptools-39.2.0-6.el8.noa [                                    ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [==                                  ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [=====                               ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [=======                             ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [========                            ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [=========                           ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [===========                         ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [==============                      ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [===============                     ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [=================                   ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [==================                  ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [====================                ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [=======================             ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [=========================           ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [============================        ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [==============================      ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [=================================   ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noa [=================================== ]  5/11  Installing       : python3-setuptools-39.2.0-6.el8.noarch                                      5/11 
+  Installing       : python3-pip-9.0.3-22.el8.noarch [                                        ]  6/11  Installing       : python3-pip-9.0.3-22.el8.noarch [=                                       ]  6/11  Installing       : python3-pip-9.0.3-22.el8.noarch [====                                    ]  6/11  Installing       : python3-pip-9.0.3-22.el8.noarch [======                                  ]  6/11  Installing       : python3-pip-9.0.3-22.el8.noarch [==========                              ]  6/11  Installing       : python3-pip-9.0.3-22.el8.noarch [===========                             ]  6/11  Installing       : python3-pip-9.0.3-22.el8.noarch [=========================               ]  6/11  Installing       : python3-pip-9.0.3-22.el8.noarch [==========================              ]  6/11  Installing       : python3-pip-9.0.3-22.el8.noarch [======================================  ]  6/11  Installing       : python3-pip-9.0.3-22.el8.noarch                                             6/11 
+  Installing       : python36-3.6.8-38.module_el8.5.0+25 [                                    ]  7/11  Installing       : python36-3.6.8-38.module_el8.5.0+25 [=                                   ]  7/11  Installing       : python36-3.6.8-38.module_el8.5.0+25 [==                                  ]  7/11  Installing       : python36-3.6.8-38.module_el8.5.0+25 [=================================== ]  7/11  Installing       : python36-3.6.8-38.module_el8.5.0+2569+5c5719bc.x86_64                       7/11 
+  Running scriptlet: python36-3.6.8-38.module_el8.5.0+2569+5c5719bc.x86_64                       7/11 
+  Installing       : lm_sensors-libs-3.4.0-23.20180522gi [                                    ]  8/11  Installing       : lm_sensors-libs-3.4.0-23.20180522gi [=============                       ]  8/11  Installing       : lm_sensors-libs-3.4.0-23.20180522gi [=========================           ]  8/11  Installing       : lm_sensors-libs-3.4.0-23.20180522gi [=================================== ]  8/11  Installing       : lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64                      8/11 
+  Running scriptlet: lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64                      8/11 
+  Installing       : sysstat-11.7.3-7.el8.x86_64 [                                            ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=                                           ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [==                                          ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [===                                         ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [====                                        ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=====                                       ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [======                                      ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=======                                     ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [========                                    ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=========                                   ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [==========                                  ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [===========                                 ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [============                                ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=============                               ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [==============                              ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [===============                             ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [================                            ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=================                           ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [==================                          ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [===================                         ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [====================                        ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [======================                      ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=======================                     ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [========================                    ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=========================                   ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [==========================                  ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [===========================                 ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [============================                ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=============================               ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [==============================              ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [===============================             ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [================================            ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=================================           ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [==================================          ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [===================================         ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [====================================        ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=====================================       ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [======================================      ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=======================================     ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [========================================    ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=========================================   ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [==========================================  ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64 [=========================================== ]  9/11  Installing       : sysstat-11.7.3-7.el8.x86_64                                                 9/11 
+  Running scriptlet: sysstat-11.7.3-7.el8.x86_64                                                 9/11 
+  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [                                            ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=                                           ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [==                                          ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [===                                         ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [====                                        ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=====                                       ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [======                                      ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=======                                     ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [========                                    ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=========                                   ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [==========                                  ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [===========                                 ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [============                                ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=============                               ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [==============                              ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [===============                             ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [================                            ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=================                           ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [==================                          ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [===================                         ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [====================                        ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=====================                       ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [======================                      ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=======================                     ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [========================                    ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=========================                   ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [==========================                  ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [===========================                 ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [============================                ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=============================               ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [==============================              ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [===============================             ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [================================            ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=================================           ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [==================================          ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [===================================         ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [====================================        ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=====================================       ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [======================================      ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=======================================     ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [========================================    ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=========================================   ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [==========================================  ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64 [=========================================== ] 10/11  Installing       : kmod-zfs-2.1.5-2.el8.x86_64                                                10/11 
+  Running scriptlet: kmod-zfs-2.1.5-2.el8.x86_64                                                10/11 
+  Installing       : zfs-2.1.5-2.el8.x86_64 [                                                 ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=                                                ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [==                                               ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [===                                              ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [====                                             ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=====                                            ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [======                                           ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=======                                          ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [========                                         ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=========                                        ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [==========                                       ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [===========                                      ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [============                                     ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=============                                    ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [==============                                   ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [===============                                  ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [================                                 ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=================                                ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [==================                               ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [===================                              ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [====================                             ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=====================                            ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [======================                           ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=======================                          ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [========================                         ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=========================                        ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [==========================                       ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [===========================                      ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [============================                     ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=============================                    ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [==============================                   ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [===============================                  ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [================================                 ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=================================                ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [==================================               ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [===================================              ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [====================================             ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=====================================            ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [======================================           ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=======================================          ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [========================================         ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=========================================        ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [==========================================       ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [===========================================      ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [============================================     ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [=============================================    ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [==============================================   ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [===============================================  ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64 [================================================ ] 11/11  Installing       : zfs-2.1.5-2.el8.x86_64                                                     11/11 
+  Running scriptlet: zfs-2.1.5-2.el8.x86_64                                                     11/11 
+  Verifying        : lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64                      1/11 
+  Verifying        : python3-setuptools-39.2.0-6.el8.noarch                                      2/11 
+  Verifying        : python3-pip-9.0.3-22.el8.noarch                                             3/11 
+  Verifying        : python36-3.6.8-38.module_el8.5.0+2569+5c5719bc.x86_64                       4/11 
+  Verifying        : sysstat-11.7.3-7.el8.x86_64                                                 5/11 
+  Verifying        : kmod-zfs-2.1.5-2.el8.x86_64                                                 6/11 
+  Verifying        : libnvpair3-2.1.5-2.el8.x86_64                                               7/11 
+  Verifying        : libuutil3-2.1.5-2.el8.x86_64                                                8/11 
+  Verifying        : libzfs5-2.1.5-2.el8.x86_64                                                  9/11 
+  Verifying        : libzpool5-2.1.5-2.el8.x86_64                                               10/11 
+  Verifying        : zfs-2.1.5-2.el8.x86_64                                                     11/11 
+
+Installed:
+  kmod-zfs-2.1.5-2.el8.x86_64                                                                         
+  libnvpair3-2.1.5-2.el8.x86_64                                                                       
+  libuutil3-2.1.5-2.el8.x86_64                                                                        
+  libzfs5-2.1.5-2.el8.x86_64                                                                          
+  libzpool5-2.1.5-2.el8.x86_64                                                                        
+  lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64                                              
+  python3-pip-9.0.3-22.el8.noarch                                                                     
+  python3-setuptools-39.2.0-6.el8.noarch                                                              
+  python36-3.6.8-38.module_el8.5.0+2569+5c5719bc.x86_64                                               
+  sysstat-11.7.3-7.el8.x86_64                                                                         
+  zfs-2.1.5-2.el8.x86_64                                                                              
+
+Complete!
+]0;root@server:~[root@server ~]# wget -O War_and_Peace.txt http://www.gutenberg.org/ebooks/2600.txt.utf-8
+bash: wget: command not found
+]0;root@server:~[root@server ~]# yum ins[K[K[Kprovice[Kdes [K[K[K[K[Kdes wget
+Last metadata expiration check: 0:01:11 ago on Sun 21 Aug 2022 02:24:12 PM UTC.
+[1m[35mwget(B[m-1.19.5-10.el8.x86_64 : A utility for retrieving files using the HTTP or FTP protocols
+Repo        : appstream
+Matched from:
+Provide    : [1m[35mwget(B[m = 1.19.5-10.el8
+
+]0;root@server:~[root@server ~]# yum install wget
+Last metadata expiration check: 0:01:16 ago on Sun 21 Aug 2022 02:24:12 PM UTC.
+Dependencies resolved.
+======================================================================================================
+ Package                  Architecture        Version                    Repository              Size
+======================================================================================================
+Installing:
+ [1m[32mwget                    (B[m x86_64              1.19.5-10.el8              appstream              733 k
+Installing dependencies:
+ [1m[32mlibmetalink             (B[m x86_64              0.1.3-7.el8                baseos                  32 k
+
+Transaction Summary
+======================================================================================================
+Install  2 Packages
+
+Total download size: 764 k
+Installed size: 2.8 M
+Is this ok [y/N]: y
+Downloading Packages:
+                                    [===                            ] ---  B/s |   0  B     --:-- ETA                                    [===                            ] ---  B/s |   0  B     --:-- ETA                                    [   ===                         ] ---  B/s |   0  B     --:-- ETA                               100% [===============================] 1.5 kB/s | 641  B     00:00 ETA(1/2): libmetalink-0.1.3-7.el8.  0% [                               ] ---  B/s |   0  B     --:-- ETA(1/2): libmetalink-0.1.3-7.el8.x86_64.rpm                             217 kB/s |  32 kB     00:00    
+(2/2): wget-1.19.5-10.el8.x86_6 18% [=====-                         ] 975 kB/s | 143 kB     00:00 ETA(2/2): wget-1.19.5-10.el8.x86_6 85% [==========================-    ] 1.0 MB/s | 655 kB     00:00 ETA(2/2): wget-1.19.5-10.el8.x86_64.rpm                                  1.3 MB/s | 733 kB     00:00    
+------------------------------------------------------------------------------------------------------
+Total                                                                 448 kB/s | 764 kB     00:01     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [====================================                                     ] 1/1  Preparing        :                                                                              1/1 
+  Installing       : libmetalink-0.1.3-7.el8.x86_64 [                                           ] 1/2  Installing       : libmetalink-0.1.3-7.el8.x86_64 [==================                         ] 1/2  Installing       : libmetalink-0.1.3-7.el8.x86_64 [====================================       ] 1/2  Installing       : libmetalink-0.1.3-7.el8.x86_64 [=========================================  ] 1/2  Installing       : libmetalink-0.1.3-7.el8.x86_64 [========================================== ] 1/2  Installing       : libmetalink-0.1.3-7.el8.x86_64                                               1/2 
+  Installing       : wget-1.19.5-10.el8.x86_64 [                                                ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=                                               ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [==                                              ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [===                                             ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [====                                            ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=====                                           ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [======                                          ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=======                                         ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [========                                        ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=========                                       ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [==========                                      ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [===========                                     ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [============                                    ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=============                                   ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [==============                                  ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [===============                                 ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [================                                ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=================                               ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [==================                              ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [===================                             ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [====================                            ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=====================                           ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [======================                          ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=======================                         ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [========================                        ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=========================                       ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [==========================                      ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [===========================                     ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [============================                    ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=============================                   ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [==============================                  ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [===============================                 ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [================================                ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=================================               ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [==================================              ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [===================================             ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [====================================            ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=====================================           ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [======================================          ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=======================================         ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [========================================        ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=========================================       ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [==========================================      ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [===========================================     ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [============================================    ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=============================================   ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [==============================================  ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64 [=============================================== ] 2/2  Installing       : wget-1.19.5-10.el8.x86_64                                                    2/2 
+  Running scriptlet: wget-1.19.5-10.el8.x86_64                                                    2/2 
+  Verifying        : libmetalink-0.1.3-7.el8.x86_64                                               1/2 
+  Verifying        : wget-1.19.5-10.el8.x86_64                                                    2/2 
+
+Installed:
+  libmetalink-0.1.3-7.el8.x86_64                       wget-1.19.5-10.el8.x86_64                      
+
+Complete!
+]0;root@server:~[root@server ~]# yum install wget[1@provides[C[C[C[C[Cwget -O War_and_Peace.txt http://www.gutenberg.org/ebooks/2600.txt.utf-8
+--2022-08-21 14:25:33--  http://www.gutenberg.org/ebooks/2600.txt.utf-8
+Resolving www.gutenberg.org (www.gutenberg.org)... 152.19.134.47
+Connecting to www.gutenberg.org (www.gutenberg.org)|152.19.134.47|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://www.gutenberg.org/ebooks/2600.txt.utf-8 [following]
+--2022-08-21 14:25:34--  https://www.gutenberg.org/ebooks/2600.txt.utf-8
+Connecting to www.gutenberg.org (www.gutenberg.org)|152.19.134.47|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://www.gutenberg.org/cache/epub/2600/pg2600.txt [following]
+--2022-08-21 14:25:34--  https://www.gutenberg.org/cache/epub/2600/pg2600.txt
+Reusing existing connection to www.gutenberg.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3359372 (3.2M) [text/plain]
+Saving to: ‘War_and_Peace.txt’
+
+War_and_Peace.txt           0%[                                    ]       0  --.-KB/s               War_and_Peace.txt           1%[                                    ]  47.11K   140KB/s               War_and_Peace.txt           4%[>                                   ] 164.00K   304KB/s               War_and_Peace.txt          10%[==>                                 ] 340.00K   460KB/s               War_and_Peace.txt          17%[=====>                              ] 580.00K   617KB/s               War_and_Peace.txt          24%[=======>                            ] 820.00K   713KB/s               War_and_Peace.txt          32%[==========>                         ]   1.05M   788KB/s               War_and_Peace.txt          42%[==============>                     ]   1.35M   876KB/s               War_and_Peace.txt          51%[=================>                  ]   1.66M   947KB/s               War_and_Peace.txt          62%[=====================>              ]   1.99M  1014KB/s               War_and_Peace.txt          72%[=========================>          ]   2.32M  1.05MB/s               War_and_Peace.txt          83%[=============================>      ]   2.68M  1.11MB/s               War_and_Peace.txt          94%[================================>   ]   3.02M  1.15MB/s               War_and_Peace.txt         100%[===================================>]   3.20M  1.18MB/s    in 2.7s    
+
+2022-08-21 14:25:37 (1.18 MB/s) - ‘War_and_Peace.txt’ saved [3359372/3359372]
+
+]0;root@server:~[root@server ~]# ll
+total 3344
+-rw-r--r--. 1 root root   61440 Aug 21 14:25 typescript
+-rw-r--r--. 1 root root 3359372 Aug  2 08:36 War_and_Peace.txt
+]0;root@server:~[root@server ~]# lsblk
+NAME    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda       8:0    0 19.5G  0 disk 
+├─sda1    8:1    0    2G  0 part [SWAP]
+└─sda2    8:2    0 17.6G  0 part /
+sdb       8:16   0    1G  0 disk 
+sdc       8:32   0    1G  0 disk 
+sdd       8:48   0    1G  0 disk 
+sde       8:64   0    1G  0 disk 
+sdf       8:80   0    1G  0 disk 
+sdg       8:96   0    1G  0 disk 
+sdh       8:112  0    1G  0 disk 
+sdi       8:128  0    1G  0 disk 
+nvme0n1 259:0    0    1G  0 disk 
+nvme0n2 259:1    0    1G  0 disk 
+nvme0n3 259:2    0    1G  0 disk 
+nvme0n4 259:3    0    1G  0 disk 
+nvme0n5 259:4    0    1G  0 disk 
+nvme0n6 259:5    0    1G  0 disk 
+]0;root@server:~[root@server ~]# zpool create stripe /de/[Kv/nvme0n[1-6][C[C[C[C[C[C[C[C[C
+The ZFS modules are not loaded.
+Try running '/sbin/modprobe zfs' as root to load them.
+]0;root@server:~[root@server ~]# modprobe zfs
+]0;root@server:~[root@server ~]# modprobe zfszpool create stripe /dev/nvme0n[1-6]
+]0;root@server:~[root@server ~]# zpool list
+NAME     SIZE  ALLOC   FREE  CKPOINT  EXPANDSZ   FRAG    CAP  DEDUP    HEALTH  ALTROOT
+stripe  5.62G   128K  5.62G        -         -     0%     0%  1.00x    ONLINE  -
+]0;root@server:~[root@server ~]# for i [K[K[K[K[K[Kfor i in {1..10} ; do zfs create stripe/fs{[K${i};done
+]0;root@server:~[root@server ~]# zfs status
+unrecognized command 'status'
+usage: zfs command args ...
+where 'command' is one of the following:
+
+	version
+
+	create [-Pnpuv] [-o property=value] ... <filesystem>
+	create [-Pnpsv] [-b blocksize] [-o property=value] ... -V <size> <volume>
+	destroy [-fnpRrv] <filesystem|volume>
+	destroy [-dnpRrv] <filesystem|volume>@<snap>[%<snap>][,...]
+	destroy <filesystem|volume>#<bookmark>
+
+	snapshot [-r] [-o property=value] ... <filesystem|volume>@<snap> ...
+	rollback [-rRf] <snapshot>
+	clone [-p] [-o property=value] ... <snapshot> <filesystem|volume>
+	promote <clone-filesystem>
+	rename [-f] <filesystem|volume|snapshot> <filesystem|volume|snapshot>
+	rename -p [-f] <filesystem|volume> <filesystem|volume>
+	rename -u [-f] <filesystem> <filesystem>
+	rename -r <snapshot> <snapshot>
+	bookmark <snapshot|bookmark> <newbookmark>
+	program [-jn] [-t <instruction limit>] [-m <memory limit (b)>]
+	    <pool> <program file> [lua args...]
+
+	list [-Hp] [-r|-d max] [-o property[,...]] [-s property]...
+	    [-S property]... [-t type[,...]] [filesystem|volume|snapshot] ...
+
+	set <property=value> ... <filesystem|volume|snapshot> ...
+	get [-rHp] [-d max] [-o "all" | field[,...]]
+	    [-t type[,...]] [-s source[,...]]
+	    <"all" | property[,...]> [filesystem|volume|snapshot|bookmark] ...
+	inherit [-rS] <property> <filesystem|volume|snapshot> ...
+	upgrade [-v]
+	upgrade [-r] [-V version] <-a | filesystem ...>
+
+	userspace [-Hinp] [-o field[,...]] [-s field] ...
+	    [-S field] ... [-t type[,...]] <filesystem|snapshot|path>
+	groupspace [-Hinp] [-o field[,...]] [-s field] ...
+	    [-S field] ... [-t type[,...]] <filesystem|snapshot|path>
+	projectspace [-Hp] [-o field[,...]] [-s field] ... 
+	    [-S field] ... <filesystem|snapshot|path>
+
+	project [-d|-r] <directory|file ...>
+	project -c [-0] [-d|-r] [-p id] <directory|file ...>
+	project -C [-k] [-r] <directory ...>
+	project [-p id] [-r] [-s] <directory ...>
+
+	mount
+	mount [-flvO] [-o opts] <-a | filesystem>
+	unmount [-fu] <-a | filesystem|mountpoint>
+	share [-l] <-a [nfs|smb] | filesystem>
+	unshare <-a [nfs|smb] | filesystem|mountpoint>
+
+	send [-DnPpRvLecwhb] [-[i|I] snapshot] <snapshot>
+	send [-DnvPLecw] [-i snapshot|bookmark] <filesystem|volume|snapshot>
+	send [-DnPpvLec] [-i bookmark|snapshot] --redact <bookmark> <snapshot>
+	send [-nvPe] -t <receive_resume_token>
+	send [-Pnv] --saved filesystem
+	receive [-vMnsFhu] [-o <property>=<value>] ... [-x <property>] ...
+	    <filesystem|volume|snapshot>
+	receive [-vMnsFhu] [-o <property>=<value>] ... [-x <property>] ... 
+	    [-d | -e] <filesystem>
+	receive -A <filesystem|volume>
+
+	allow <filesystem|volume>
+	allow [-ldug] <"everyone"|user|group>[,...] <perm|@setname>[,...]
+	    <filesystem|volume>
+	allow [-ld] -e <perm|@setname>[,...] <filesystem|volume>
+	allow -c <perm|@setname>[,...] <filesystem|volume>
+	allow -s @setname <perm|@setname>[,...] <filesystem|volume>
+
+	unallow [-rldug] <"everyone"|user|group>[,...]
+	    [<perm|@setname>[,...]] <filesystem|volume>
+	unallow [-rld] -e [<perm|@setname>[,...]] <filesystem|volume>
+	unallow [-r] -c [<perm|@setname>[,...]] <filesystem|volume>
+	unallow [-r] -s @setname [<perm|@setname>[,...]] <filesystem|volume>
+
+	hold [-r] <tag> <snapshot> ...
+	holds [-rH] <snapshot> ...
+	release [-r] <tag> <snapshot> ...
+	diff [-FHt] <snapshot> [snapshot|filesystem]
+	load-key [-rn] [-L <keylocation>] <-a | filesystem|volume>
+	unload-key [-r] <-a | filesystem|volume>
+	change-key [-l] [-o keyformat=<value>]
+	    [-o keylocation=<value>] [-o pbkdf2iters=<value>]
+	    <filesystem|volume>
+	change-key -i [-l] <filesystem|volume>
+	redact <snapshot> <bookmark> <redaction_snapshot> ...
+	wait [-t <activity>] <filesystem>
+
+Each dataset is of the form: pool/[dataset/]*dataset[@name]
+
+For the property list, run: zfs set|get
+
+For the delegated permission list, run: zfs allow|unallow
+]0;root@server:~[root@server ~]# zfs list
+NAME          USED  AVAIL     REFER  MOUNTPOINT
+stripe        472K  5.45G       34K  /stripe
+stripe/fs1     24K  5.45G       24K  /stripe/fs1
+stripe/fs10    24K  5.45G       24K  /stripe/fs10
+stripe/fs2     24K  5.45G       24K  /stripe/fs2
+stripe/fs3     24K  5.45G       24K  /stripe/fs3
+stripe/fs4     24K  5.45G       24K  /stripe/fs4
+stripe/fs5     24K  5.45G       24K  /stripe/fs5
+stripe/fs6     24K  5.45G       24K  /stripe/fs6
+stripe/fs7     24K  5.45G       24K  /stripe/fs7
+stripe/fs8     24K  5.45G       24K  /stripe/fs8
+stripe/fs9     24K  5.45G       24K  /stripe/fs9
+]0;root@server:~[root@server ~]# zfs liststatusfor i in {1..10} ; do zfs create stripe/fs${i};done[C[C[C[1P[1P[1P[1P[1P[1P stripe/fs${i};dones stripe/fs${i};donee stripe/fs${i};donet stripe/fs${i};done[C stripe/fs${i};donec stripe/fs${i};doneo stripe/fs${i};donem stripe/fs${i};donep stripe/fs${i};doner stripe/fs${i};donee stripe/fs${i};dones stripe/fs${i};dones stripe/fs${i};donei stripe/fs${i};doneo stripe/fs${i};donen stripe/fs${i};done= stripe/fs${i};doneg stripe/fs${i};donez stripe/fs${i};donei stripe/fs${i};donep stripe/fs${i};done- stripe/fs${i};done$ stripe/fs${i};done{ stripe/fs${i};donei stripe/fs${i};done] stripe/fs${i};done[1P stripe/fs${i};done} stripe/fs${i};done[C[C[C[C[C[C[1P[1P[1@9
+]0;root@server:~[root@server ~]# for i in {1..9} ; do zfs set compression=gzip-${i} stripe/fs${i};done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Czfs list[K
+NAME          USED  AVAIL     REFER  MOUNTPOINT
+stripe        464K  5.45G       34K  /stripe
+stripe/fs1     24K  5.45G       24K  /stripe/fs1
+stripe/fs10    24K  5.45G       24K  /stripe/fs10
+stripe/fs2     24K  5.45G       24K  /stripe/fs2
+stripe/fs3     24K  5.45G       24K  /stripe/fs3
+stripe/fs4     24K  5.45G       24K  /stripe/fs4
+stripe/fs5     24K  5.45G       24K  /stripe/fs5
+stripe/fs6     24K  5.45G       24K  /stripe/fs6
+stripe/fs7     24K  5.45G       24K  /stripe/fs7
+stripe/fs8     24K  5.45G       24K  /stripe/fs8
+stripe/fs9     24K  5.45G       24K  /stripe/fs9
+]0;root@server:~[root@server ~]# zfs list[K[K[K[Kget [Kf[K feature /[K[K@compression
+bad property list: invalid property 'feature@compression'
+usage:
+	get [-rHp] [-d max] [-o "all" | field[,...]]
+	    [-t type[,...]] [-s source[,...]]
+	    <"all" | property[,...]> [filesystem|volume|snapshot|bookmark] ...
+
+The following properties are supported:
+
+	PROPERTY       EDIT  INHERIT   VALUES
+
+	available        NO       NO   <size>
+	clones           NO       NO   <dataset>[,...]
+	compressratio    NO       NO   <1.00x or higher if compressed>
+	createtxg        NO       NO   <uint64>
+	creation         NO       NO   <date>
+	defer_destroy    NO       NO   yes | no
+	encryptionroot   NO       NO   <filesystem | volume>
+	filesystem_count  NO       NO   <count>
+	guid             NO       NO   <uint64>
+	keystatus        NO       NO   none | unavailable | available
+	logicalreferenced  NO       NO   <size>
+	logicalused      NO       NO   <size>
+	mounted          NO       NO   yes | no
+	objsetid         NO       NO   <uint64>
+	origin           NO       NO   <snapshot>
+	receive_resume_token  NO       NO   <string token>
+	redact_snaps     NO       NO   <snapshot>[,...]
+	refcompressratio  NO       NO   <1.00x or higher if compressed>
+	referenced       NO       NO   <size>
+	snapshot_count   NO       NO   <count>
+	type             NO       NO   filesystem | volume | snapshot | bookmark
+	used             NO       NO   <size>
+	usedbychildren   NO       NO   <size>
+	usedbydataset    NO       NO   <size>
+	usedbyrefreservation  NO       NO   <size>
+	usedbysnapshots  NO       NO   <size>
+	userrefs         NO       NO   <count>
+	written          NO       NO   <size>
+	aclinherit      YES      YES   discard | noallow | restricted | passthrough | passthrough-x
+	aclmode         YES      YES   discard | groupmask | passthrough | restricted
+	acltype         YES      YES   off | nfsv4 | posix
+	atime           YES      YES   on | off
+	canmount        YES       NO   on | off | noauto
+	casesensitivity  NO      YES   sensitive | insensitive | mixed
+	checksum        YES      YES   on | off | fletcher2 | fletcher4 | sha256 | sha512 | skein | edonr
+	compression     YES      YES   on | off | lzjb | gzip | gzip-[1-9] | zle | lz4 | zstd | zstd-[1-19] | zstd-fast | zstd-fast-[1-10,20,30,40,50,60,70,80,90,100,500,1000]
+	context         YES       NO   <selinux context>
+	copies          YES      YES   1 | 2 | 3
+	dedup           YES      YES   on | off | verify | sha256[,verify] | sha512[,verify] | skein[,verify] | edonr,verify
+	defcontext      YES       NO   <selinux defcontext>
+	devices         YES      YES   on | off
+	dnodesize       YES      YES   legacy | auto | 1k | 2k | 4k | 8k | 16k
+	encryption       NO      YES   on | off | aes-128-ccm | aes-192-ccm | aes-256-ccm | aes-128-gcm | aes-192-gcm | aes-256-gcm
+	exec            YES      YES   on | off
+	filesystem_limit YES       NO   <count> | none
+	fscontext       YES       NO   <selinux fscontext>
+	keyformat        NO       NO   none | raw | hex | passphrase
+	keylocation     YES       NO   prompt | <file URI> | <https URL> | <http URL>
+	logbias         YES      YES   latency | throughput
+	mlslabel        YES      YES   <sensitivity label>
+	mountpoint      YES      YES   <path> | legacy | none
+	nbmand          YES      YES   on | off
+	normalization    NO      YES   none | formC | formD | formKC | formKD
+	overlay         YES      YES   on | off
+	pbkdf2iters      NO       NO   <iters>
+	primarycache    YES      YES   all | none | metadata
+	quota           YES       NO   <size> | none
+	readonly        YES      YES   on | off
+	recordsize      YES      YES   512 to 1M, power of 2
+	redundant_metadata YES      YES   all | most
+	refquota        YES       NO   <size> | none
+	refreservation  YES       NO   <size> | none
+	relatime        YES      YES   on | off
+	reservation     YES       NO   <size> | none
+	rootcontext     YES       NO   <selinux rootcontext>
+	secondarycache  YES      YES   all | none | metadata
+	setuid          YES      YES   on | off
+	sharenfs        YES      YES   on | off | NFS share options
+	sharesmb        YES      YES   on | off | SMB share options
+	snapdev         YES      YES   hidden | visible
+	snapdir         YES      YES   hidden | visible
+	snapshot_limit  YES       NO   <count> | none
+	special_small_blocks YES      YES   zero or 512 to 1M, power of 2
+	sync            YES      YES   standard | always | disabled
+	utf8only         NO      YES   on | off
+	version         YES       NO   1 | 2 | 3 | 4 | 5 | current
+	volblocksize     NO      YES   512 to 128k, power of 2
+	volmode         YES      YES   default | full | geom | dev | none
+	volsize         YES       NO   <size>
+	vscan           YES      YES   on | off
+	xattr           YES      YES   on | off | dir | sa
+	zoned           YES      YES   on | off
+	userused@...     NO       NO   <size>
+	groupused@...    NO       NO   <size>
+	projectused@...  NO       NO   <size>
+	userobjused@...  NO       NO   <size>
+	groupobjused@...  NO       NO   <size>
+	projectobjused@...  NO       NO   <size>
+	userquota@...   YES       NO   <size> | none
+	groupquota@...  YES       NO   <size> | none
+	projectquota@... YES       NO   <size> | none
+	userobjquota@... YES       NO   <size> | none
+	groupobjquota@... YES       NO   <size> | none
+	projectobjquota@... YES       NO   <size> | none
+	written@<snap>   NO       NO   <size>
+	written#<bookmark>  NO       NO   <size>
+
+Sizes are specified in bytes with standard units such as K, M, G, etc.
+
+User-defined properties can be specified by using a name containing a colon (:).
+
+The {user|group|project}[obj]{used|quota}@ properties must be appended with
+a user|group|project specifier of one of these forms:
+    POSIX name      (eg: "matt")
+    POSIX id        (eg: "126829")
+    SMB name@domain (eg: "matt@sun")
+    SMB SID         (eg: "S-1-234-567-89")
+]0;root@server:~[root@server ~]# zfs get feature@compression[C[C[1Pcompression[1Pcompression[1Pcompression[1Pcompression[1Pcompression[1Pcompression[1Pcompression[1Pcompression
+NAME         PROPERTY     VALUE           SOURCE
+stripe       compression  off             default
+stripe/fs1   compression  gzip-1          local
+stripe/fs10  compression  off             default
+stripe/fs2   compression  gzip-2          local
+stripe/fs3   compression  gzip-3          local
+stripe/fs4   compression  gzip-4          local
+stripe/fs5   compression  gzip-5          local
+stripe/fs6   compression  gzip            local
+stripe/fs7   compression  gzip-7          local
+stripe/fs8   compression  gzip-8          local
+stripe/fs9   compression  gzip-9          local
+]0;root@server:~[root@server ~]# zfs get compressionfeature@compression[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clist[Kfor i in {1..9} ; do zfs set compression=gzip-${i} stripe/fs${i};done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Czfs list[Kstatusfor i in {1..10} ; do zfs create stripe/fs${i};done[1P[1@1[1@1[C[C[1P[1P[1@1[1@3
+]0;root@server:~[root@server ~]# for i in {11..13} ; do zfs create stripe/fs${i};done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Pzfs get compressionfeature@compression[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clist[Kfor i in {1..9} ; do zfs set compression=gzip-${i} stripe/fs${i};done^C
+]0;root@server:~[root@server ~]# for i in {11..13} ; do zfs create stripe/fs${i};done^C
+]0;root@server:~[root@server ~]# zfs set compression=[Czle /stripe/[1Pstripe/[C[C[C[C[C[C[Cfs10
+]0;root@server:~[root@server ~]# zfs set compression=zle stripe/fs10[K1[1P stripe/fs11[1P stripe/fs11[1P stripe/fs11l stripe/fs11z stripe/fs11j stripe/fs11b stripe/fs11
+]0;root@server:~[root@server ~]# zfs set compression=lzjb stripe/fs11[K2[1P stripe/fs12[1P stripe/fs124 stripe/fs12
+]0;root@server:~[root@server ~]# ls /stripe/
+[0m[38;5;33mfs1[0m  [38;5;33mfs10[0m  [38;5;33mfs11[0m  [38;5;33mfs12[0m  [38;5;33mfs13[0m  [38;5;33mfs2[0m  [38;5;33mfs3[0m  [38;5;33mfs4[0m  [38;5;33mfs5[0m  [38;5;33mfs6[0m  [38;5;33mfs7[0m  [38;5;33mfs8[0m  [38;5;33mfs9[0m
+]0;root@server:~[root@server ~]# ls 
+typescript  War_and_Peace.txt
+]0;root@server:~[root@server ~]# for iu[K in 1..[K[K[K{1..12}; do cp War_and_Peace.txt /fs${i};done
+]0;root@server:~[root@server ~]# ls -laht /f[Kstripe/fs*
+/stripe/fs13:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [0m[38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:37 [38;5;33m.[0m
+
+/stripe/fs12:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:37 [38;5;33m.[0m
+
+/stripe/fs11:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:37 [38;5;33m.[0m
+
+/stripe/fs10:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:34 [38;5;33m.[0m
+
+/stripe/fs9:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:34 [38;5;33m.[0m
+
+/stripe/fs8:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:34 [38;5;33m.[0m
+
+/stripe/fs7:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:34 [38;5;33m.[0m
+
+/stripe/fs6:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:34 [38;5;33m.[0m
+
+/stripe/fs5:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:34 [38;5;33m.[0m
+
+/stripe/fs4:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:34 [38;5;33m.[0m
+
+/stripe/fs3:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:34 [38;5;33m.[0m
+
+/stripe/fs2:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:34 [38;5;33m.[0m
+
+/stripe/fs1:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:34 [38;5;33m.[0m
+]0;root@server:~[root@server ~]# ls -laht /stripe/fs*[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in {1..12}; do cp War_and_Peace.txt /fs${i};donesfs${i};donetfs${i};donerfs${i};doneifs${i};donepfs${i};doneefs${i};done/fs${i};done
+]0;root@server:~[root@server ~]# for i in {1..12}; do cp War_and_Peace.txt /stripe/fs${i};done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -laht /stripe/fs*[K
+/stripe/fs12:
+total 2.5K
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [0m[38;5;33m.[0m
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs11:
+total 2.4M
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [38;5;33m.[0m
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs10:
+total 3.3M
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [38;5;33m.[0m
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs9:
+total 1.3M
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [38;5;33m.[0m
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs8:
+total 1.3M
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [38;5;33m.[0m
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs7:
+total 1.3M
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [38;5;33m.[0m
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs6:
+total 1.3M
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [38;5;33m.[0m
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs5:
+total 1.3M
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [38;5;33m.[0m
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs4:
+total 1.3M
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [38;5;33m.[0m
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs3:
+total 1.4M
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [38;5;33m.[0m
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs2:
+total 1.4M
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [38;5;33m.[0m
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs1:
+total 1.5M
+drwxr-xr-x.  2 root root    3 Aug 21 14:39 [38;5;33m.[0m
+-rw-r--r--.  1 root root 3.3M Aug 21 14:39 War_and_Peace.txt
+drwxr-xr-x. 15 root root   15 Aug 21 14:37 [38;5;33m..[0m
+
+/stripe/fs13:
+total 2.0K
+drwxr-xr-x. 15 root root 15 Aug 21 14:37 [38;5;33m..[0m
+drwxr-xr-x.  2 root root  2 Aug 21 14:37 [38;5;33m.[0m
+]0;root@server:~[root@server ~]# zfs list
+NAME          USED  AVAIL     REFER  MOUNTPOINT
+stripe       20.0M  5.43G     36.5K  /stripe
+stripe/fs1   1.44M  5.43G     1.44M  /stripe/fs1
+stripe/fs10  3.23M  5.43G     3.23M  /stripe/fs10
+stripe/fs11  2.41M  5.43G     2.41M  /stripe/fs11
+stripe/fs12  2.02M  5.43G     2.02M  /stripe/fs12
+stripe/fs13    24K  5.43G       24K  /stripe/fs13
+stripe/fs2   1.39M  5.43G     1.39M  /stripe/fs2
+stripe/fs3   1.34M  5.43G     1.34M  /stripe/fs3
+stripe/fs4   1.30M  5.43G     1.30M  /stripe/fs4
+stripe/fs5   1.26M  5.43G     1.26M  /stripe/fs5
+stripe/fs6   1.24M  5.43G     1.24M  /stripe/fs6
+stripe/fs7   1.23M  5.43G     1.23M  /stripe/fs7
+stripe/fs8   1.23M  5.43G     1.23M  /stripe/fs8
+stripe/fs9   1.23M  5.43G     1.23M  /stripe/fs9
+]0;root@server:~[root@server ~]# zfs get f[Kfeature compression[1P compression[1P compression[1P compression[1P compression[1P compression[1P compression[1P compression
+NAME         PROPERTY     VALUE           SOURCE
+stripe       compression  off             default
+stripe/fs1   compression  gzip-1          local
+stripe/fs10  compression  zle             local
+stripe/fs11  compression  lzjb            local
+stripe/fs12  compression  lz4             local
+stripe/fs13  compression  off             default
+stripe/fs2   compression  gzip-2          local
+stripe/fs3   compression  gzip-3          local
+stripe/fs4   compression  gzip-4          local
+stripe/fs5   compression  gzip-5          local
+stripe/fs6   compression  gzip            local
+stripe/fs7   compression  gzip-7          local
+stripe/fs8   compression  gzip-8          local
+stripe/fs9   compression  gzip-9          local
+]0;root@server:~[root@server ~]# exit
+exit
+
+Script done on 2022-08-21 14:41:13+00:00
