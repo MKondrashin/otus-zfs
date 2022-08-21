@@ -35,3 +35,19 @@ stripe/fs5   compression  gzip-5          local
 **stripe/fs7   compression  gzip-7          local**  
 stripe/fs8   compression  gzip-8          local  
 stripe/fs9   compression  gzip-9          local
+
+## Часть вторая
+
+### список команд которыми восстановили pool . Желательно с Output команд; 
+zpool import -d ${PWD}/zpoolexport/
+zpool import -d ${PWD}/zpoolexport/ otus
+
+Подробнее в скрипте part2.script
+
+### файл с описанием настроек settings.
+
+2020-05-15.04:04:57 zfs set recordsize=128K otus
+2020-05-15.04:05:55 zfs set checksum=sha256 otus
+2020-05-15.04:11:05 zfs set compression=zle otus
+
+Все настройки в файлах otus_hometask2.properties и otus.properties
