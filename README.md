@@ -52,7 +52,7 @@ zpool import -d ${PWD}/zpoolexport/ otus
 
 Все настройки в файлах otus_hometask2.properties и otus.properties
 
-## Часть 3
+## Часть третья
 
-Список шагов в файле part3.script
+Список шагов в файле part3.script  
 Секретная фраза: https://github.com/sindresorhus/awesome
