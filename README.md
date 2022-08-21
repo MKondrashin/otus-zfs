@@ -51,3 +51,8 @@ zpool import -d ${PWD}/zpoolexport/ otus
 2020-05-15.04:11:05 zfs set compression=zle otus
 
 Все настройки в файлах otus_hometask2.properties и otus.properties
+
+## Часть 3
+
+Список шагов в файле part3.script
+Секретная фраза: https://github.com/sindresorhus/awesome
