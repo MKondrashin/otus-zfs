@@ -1,0 +1,195 @@
+Script started on 2022-08-21 18:22:45+00:00
+]0;root@server:~[root@server ~]# ls
+part2.script  typescript  War_and_Peace.txt  [0m[38;5;33mzpoolexport[0m
+]0;root@server:~[root@server ~]# zfs import -d ${}P}W}D}C}[1P}[C/zpoolexport/ 
+unrecognized command 'import'
+usage: zfs command args ...
+where 'command' is one of the following:
+
+	version
+
+	create [-Pnpuv] [-o property=value] ... <filesystem>
+	create [-Pnpsv] [-b blocksize] [-o property=value] ... -V <size> <volume>
+	destroy [-fnpRrv] <filesystem|volume>
+	destroy [-dnpRrv] <filesystem|volume>@<snap>[%<snap>][,...]
+	destroy <filesystem|volume>#<bookmark>
+
+	snapshot [-r] [-o property=value] ... <filesystem|volume>@<snap> ...
+	rollback [-rRf] <snapshot>
+	clone [-p] [-o property=value] ... <snapshot> <filesystem|volume>
+	promote <clone-filesystem>
+	rename [-f] <filesystem|volume|snapshot> <filesystem|volume|snapshot>
+	rename -p [-f] <filesystem|volume> <filesystem|volume>
+	rename -u [-f] <filesystem> <filesystem>
+	rename -r <snapshot> <snapshot>
+	bookmark <snapshot|bookmark> <newbookmark>
+	program [-jn] [-t <instruction limit>] [-m <memory limit (b)>]
+	    <pool> <program file> [lua args...]
+
+	list [-Hp] [-r|-d max] [-o property[,...]] [-s property]...
+	    [-S property]... [-t type[,...]] [filesystem|volume|snapshot] ...
+
+	set <property=value> ... <filesystem|volume|snapshot> ...
+	get [-rHp] [-d max] [-o "all" | field[,...]]
+	    [-t type[,...]] [-s source[,...]]
+	    <"all" | property[,...]> [filesystem|volume|snapshot|bookmark] ...
+	inherit [-rS] <property> <filesystem|volume|snapshot> ...
+	upgrade [-v]
+	upgrade [-r] [-V version] <-a | filesystem ...>
+
+	userspace [-Hinp] [-o field[,...]] [-s field] ...
+	    [-S field] ... [-t type[,...]] <filesystem|snapshot|path>
+	groupspace [-Hinp] [-o field[,...]] [-s field] ...
+	    [-S field] ... [-t type[,...]] <filesystem|snapshot|path>
+	projectspace [-Hp] [-o field[,...]] [-s field] ... 
+	    [-S field] ... <filesystem|snapshot|path>
+
+	project [-d|-r] <directory|file ...>
+	project -c [-0] [-d|-r] [-p id] <directory|file ...>
+	project -C [-k] [-r] <directory ...>
+	project [-p id] [-r] [-s] <directory ...>
+
+	mount
+	mount [-flvO] [-o opts] <-a | filesystem>
+	unmount [-fu] <-a | filesystem|mountpoint>
+	share [-l] <-a [nfs|smb] | filesystem>
+	unshare <-a [nfs|smb] | filesystem|mountpoint>
+
+	send [-DnPpRvLecwhb] [-[i|I] snapshot] <snapshot>
+	send [-DnvPLecw] [-i snapshot|bookmark] <filesystem|volume|snapshot>
+	send [-DnPpvLec] [-i bookmark|snapshot] --redact <bookmark> <snapshot>
+	send [-nvPe] -t <receive_resume_token>
+	send [-Pnv] --saved filesystem
+	receive [-vMnsFhu] [-o <property>=<value>] ... [-x <property>] ...
+	    <filesystem|volume|snapshot>
+	receive [-vMnsFhu] [-o <property>=<value>] ... [-x <property>] ... 
+	    [-d | -e] <filesystem>
+	receive -A <filesystem|volume>
+
+	allow <filesystem|volume>
+	allow [-ldug] <"everyone"|user|group>[,...] <perm|@setname>[,...]
+	    <filesystem|volume>
+	allow [-ld] -e <perm|@setname>[,...] <filesystem|volume>
+	allow -c <perm|@setname>[,...] <filesystem|volume>
+	allow -s @setname <perm|@setname>[,...] <filesystem|volume>
+
+	unallow [-rldug] <"everyone"|user|group>[,...]
+	    [<perm|@setname>[,...]] <filesystem|volume>
+	unallow [-rld] -e [<perm|@setname>[,...]] <filesystem|volume>
+	unallow [-r] -c [<perm|@setname>[,...]] <filesystem|volume>
+	unallow [-r] -s @setname [<perm|@setname>[,...]] <filesystem|volume>
+
+	hold [-r] <tag> <snapshot> ...
+	holds [-rH] <snapshot> ...
+	release [-r] <tag> <snapshot> ...
+	diff [-FHt] <snapshot> [snapshot|filesystem]
+	load-key [-rn] [-L <keylocation>] <-a | filesystem|volume>
+	unload-key [-r] <-a | filesystem|volume>
+	change-key [-l] [-o keyformat=<value>]
+	    [-o keylocation=<value>] [-o pbkdf2iters=<value>]
+	    <filesystem|volume>
+	change-key -i [-l] <filesystem|volume>
+	redact <snapshot> <bookmark> <redaction_snapshot> ...
+	wait [-t <activity>] <filesystem>
+
+Each dataset is of the form: pool/[dataset/]*dataset[@name]
+
+For the property list, run: zfs set|get
+
+For the delegated permission list, run: zfs allow|unallow
+]0;root@server:~[root@server ~]# zfs import -d ${PWD}/zpoolexport/ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kexitzfs get  compression[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[2Plszfs import -d ${PWD}/zpoolexport/ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kzfs import -d ${PWD}/zpoolexport/ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1@z[1@p[1@o[1@o[1@l
+   pool: otus
+     id: 6554193320433390805
+  state: ONLINE
+status: Some supported features are not enabled on the pool.
+	(Note that they may be intentionally disabled if the
+	'compatibility' property is set.)
+ action: The pool can be imported using its name or numeric identifier, though
+	some features will not be available without an explicit 'zpool upgrade'.
+ config:
+
+	otus                         ONLINE
+	  mirror-0                   ONLINE
+	    /root/zpoolexport/filea  ONLINE
+	    /root/zpoolexport/fileb  ONLINE
+]0;root@server:~[root@server ~]# zpool import -d ${PWD}/zpoolexport/ otus
+]0;root@server:~[root@server ~]# zpoll[K[Kol list
+NAME     SIZE  ALLOC   FREE  CKPOINT  EXPANDSZ   FRAG    CAP  DEDUP    HEALTH  ALTROOT
+otus     480M  2.18M   478M        -         -     0%     0%  1.00x    ONLINE  -
+stripe  5.62G  20.0M  5.61G        -         -     0%     0%  1.00x    ONLINE  -
+]0;root@server:~[root@server ~]# zfs list
+NAME             USED  AVAIL     REFER  MOUNTPOINT
+otus            2.04M   350M       24K  /otus
+otus/hometask2  1.88M   350M     1.88M  /otus/hometask2
+stripe          20.0M  5.43G     36.5K  /stripe
+stripe/fs1      1.44M  5.43G     1.44M  /stripe/fs1
+stripe/fs10     3.23M  5.43G     3.23M  /stripe/fs10
+stripe/fs11     2.41M  5.43G     2.41M  /stripe/fs11
+stripe/fs12     2.02M  5.43G     2.02M  /stripe/fs12
+stripe/fs13       24K  5.43G       24K  /stripe/fs13
+stripe/fs2      1.39M  5.43G     1.39M  /stripe/fs2
+stripe/fs3      1.34M  5.43G     1.34M  /stripe/fs3
+stripe/fs4      1.30M  5.43G     1.30M  /stripe/fs4
+stripe/fs5      1.26M  5.43G     1.26M  /stripe/fs5
+stripe/fs6      1.24M  5.43G     1.24M  /stripe/fs6
+stripe/fs7      1.23M  5.43G     1.23M  /stripe/fs7
+stripe/fs8      1.23M  5.43G     1.23M  /stripe/fs8
+stripe/fs9      1.23M  5.43G     1.23M  /stripe/fs9
+]0;root@server:~[root@server ~]# zpool get recordsize otus
+bad property list: invalid property 'recordsize'
+usage:
+	get [-Hp] [-o "all" | field[,...]] <"all" | property[,...]> <pool> ...
+
+the following properties are supported:
+
+	PROPERTY             EDIT   VALUES
+
+	allocated              NO   <size>
+	capacity               NO   <size>
+	checkpoint             NO   <size>
+	dedupratio             NO   <1.00x or higher if deduped>
+	expandsize             NO   <size>
+	fragmentation          NO   <percent>
+	free                   NO   <size>
+	freeing                NO   <size>
+	guid                   NO   <guid>
+	health                 NO   <state>
+	leaked                 NO   <size>
+	load_guid              NO   <load_guid>
+	size                   NO   <size>
+	altroot               YES   <path>
+	ashift                YES   <ashift, 9-16, or 0=default>
+	autoexpand            YES   on | off
+	autoreplace           YES   on | off
+	autotrim              YES   on | off
+	bootfs                YES   <filesystem>
+	cachefile             YES   <file> | none
+	comment               YES   <comment-string>
+	compatibility         YES   <file[,file...]> | off | legacy
+	delegation            YES   on | off
+	failmode              YES   wait | continue | panic
+	listsnapshots         YES   on | off
+	multihost             YES   on | off
+	readonly              YES   on | off
+	version               YES   <version>
+	feature@...           YES   disabled | enabled | active
+
+The feature@ properties must be appended with a feature name.
+See zpool-features(7).
+]0;root@server:~[root@server ~]# zpool history otus
+History for 'otus':
+2020-05-15.04:00:58 zpool create otus mirror /root/filea /root/fileb
+2020-05-15.04:04:57 zfs set recordsize=128K otus
+2020-05-15.04:05:55 zfs set checksum=sha256 otus
+2020-05-15.04:11:05 zfs set compression=zle otus
+2020-05-15.04:18:42 zfs create otus/hometask2
+2020-05-15.04:35:03 zpool export otus
+2020-05-15.04:43:30 zpool import otus -d /root/zpoolexport/
+2020-05-15.04:56:44 zpool import -d zpoolexport/ otus
+2020-05-15.05:00:06 zpool export otus
+2022-08-21.18:23:53 zpool import -d /root/zpoolexport/ otus
+
+]0;root@server:~[root@server ~]# exit
+exit
+
+Script done on 2022-08-21 18:27:44+00:00
